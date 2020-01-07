@@ -1,6 +1,10 @@
 import networkx as nx
-
+nx.to_networkx_graph()
+nx.draw_networkx_edge_labels()
+nx.draw_networkx_labels()
 G = nx.Graph()
+nx.draw()
+
 print("G.degree:"+str(G.degree))
 G.add_node(1) #添加一个节点
 print("G.degree:"+str(G.degree))
